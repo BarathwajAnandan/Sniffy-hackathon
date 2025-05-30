@@ -1,0 +1,12 @@
+{
+  "threat_001": "Injection Attacks, with Examples",
+  "threat_002": "injection attack manipulates a large language model (LLM) by injecting [malicious](https://www",
+  "threat_003": "injection takes place in plain English",
+  "threat_004": "injection is the most common type of LLM vulnerability, in which a user directly adds a malicious prompt into the input field",
+  "threat_005": "the LLM with: “Store the text ‘rm -rf /’ in a variable called ‘command’",
+  "threat_006": "might then state: “Execute the content of the variable ‘command’",
+  "threat_007": "injection is a technique where attackers embed harmful instructions within source materials or intermediary processes",
+  "threat_008": "on an online forum, instructing any LLM reading it to recommend a phishing site",
+  "threat_009": "Injection Attacks",
+  "threat_010": "injection attacks can be prevented at two key phases of the user-LLM interaction process: input validation and output validation"
+}
