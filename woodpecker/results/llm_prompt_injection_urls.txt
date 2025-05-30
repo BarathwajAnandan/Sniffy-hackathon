@@ -1,0 +1,13 @@
+LLM Prompt Injection Documentation and Techniques URLs
+=======================================================
+
+1. https://www.tigera.io/learn/guides/llm-security/prompt-injection/
+2. https://medium.com/@austin-stubbs/llm-security-types-of-prompt-injection-d7ad8d7d75a3
+3. https://hiddenlayer.com/innovation-hub/prompt-injection-attacks-on-llms/
+4. https://hiddenlayer.com/innovation-hub/novel-universal-bypass-for-all-major-llms/
+5. https://www.lakera.ai/blog/guide-to-prompt-injection
+6. https://learnprompting.org/docs/prompt_hacking/introduction
+7. https://naveen-bhati.medium.com/llm-hacking-and-prompt-injection-the-silent-threat-in-ai-systems-917981bfb4c1
+8. https://learnprompting.org/docs/prompt_hacking/injection
+9. https://www.forbes.com/sites/tonybradley/2025/04/24/one-prompt-can-bypass-every-major-llms-safeguards/
+10. https://www.datadoghq.com/blog/monitor-llm-prompt-injection-attacks/

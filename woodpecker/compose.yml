@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  operant-ai-gatekeeper:
+    image: registry.operant.ai/operant-ai-gatekeeper:latest
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      OPERANT_TOKEN: ${OPERANT_TOKEN}
+      GATEKEEPER_MODE: true
+      GATEKEEPER_NAME: ${GATEKEEPER_NAME}
+    networks:
+      - operant_network
+networks:
+  operant_network:
+    driver: bridge

@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: woodpecker-ai
+  namespace: default
+spec:
+  selector:
+    app: woodpecker-ai
+  ports:
+    - protocol: TCP
+      port: 9000
+      targetPort: 9000
+  type: ClusterIP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: woodpecker-ai
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: woodpecker-ai
+  template:
+    metadata:
+      labels:
+        app: woodpecker-ai
+    spec:
+      containers:
+      - name: woodpecker-ai
+        image: woodpecker-ai-app:latest
+        ports:
+        - containerPort: 9000
+        env:
+        - name: OPENAI_KEY
+          value: "your-openai-key-here"
+        - name: SAFETY_FILTER_ENABLED
+          value: "false" 

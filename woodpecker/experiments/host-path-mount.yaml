@@ -1,0 +1,8 @@
+experiments:
+  - metadata:
+      name: host-path-volume
+      type: host-path-mount
+      namespace: default
+    parameters:
+      hostPath:
+        path: /proc
